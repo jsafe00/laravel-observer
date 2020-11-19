@@ -17,14 +17,12 @@ php artisan key:generate
 php artisan migrate
 ```
 
-### API EndPoints
-
-```
 #### Post
+
 ```
 GET All http://{localhost}/api/posts
 GET Single http://{localhost}/api/posts/{id}
 POST Create http://{localhost}/api/posts
-PUT Update http://{localhost}/api/posts/1
-DELETE destroy http://{localhost}/api/posts/1
+PATCH/PUT Update http://{localhost}/api/posts/{id}
+DELETE destroy http://{localhost}/api/posts/{id}
 ```
